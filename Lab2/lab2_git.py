@@ -69,20 +69,12 @@ def get_factorial(value: int):
 
 
 def get_rand():
-    '''Returns a random integer.'''
-    """TODO: Add your code here 
-        Hint: Using random.randint() function.
-    """
-    my_randint = 0
+    my_randint = random.randint(-100, 100)
     return my_randint
 
 
 def toss_coin():
-    '''Return either Head or Tail'''
-    """TODO: Add your code here
-        Hint: Using random.randint() function.
-    """
-    coin = 'Head'
+    coin = "Head" if random.randint(0,1) == 0 else "Tail"
     return coin
 
 
