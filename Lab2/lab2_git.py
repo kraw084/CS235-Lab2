@@ -74,7 +74,8 @@ def get_rand():
 
 
 def toss_coin():
-    return coin
+    return "tails" if random.randint(0, 1) == 0 else "heads"  ##impractical yes, dont care
+
 
 
 def read_input():
